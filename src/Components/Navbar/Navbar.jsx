@@ -1,8 +1,8 @@
 import cls from "./Navbar.module.css"
-import Gold from "../../assets/123gold-logo.svg";
-import WishList from "../../assets/wish-list-logo.svg";
-import Card from "../../assets/card-logo.svg"
-import Search from "../../assets/search-logo.svg"
+import Gold from "../../assets/navbar/123gold-logo.svg";
+import WishList from "../../assets/navbar/wish-list-logo.svg";
+import Card from "../../assets/navbar/card-logo.svg"
+import Search from "../../assets/navbar/search-logo.svg"
 import {NavLink} from "react-router-dom";
 
 const Navbar = () => {
@@ -10,7 +10,9 @@ const Navbar = () => {
         <div className={cls.wrapper}>
             <div className={cls.topBlock}>
                 <div></div>
-                <img src={Gold} alt="gold"/>
+                <NavLink to="/">
+                    <img src={Gold} alt="gold"/>
+                </NavLink>
                 <div className={cls.itemsBlock}>
                     <img src={WishList} alt="wishlist"/>
                     <img src={Card} alt="card"/>

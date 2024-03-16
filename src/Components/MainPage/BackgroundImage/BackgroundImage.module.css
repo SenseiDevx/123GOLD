@@ -1,0 +1,43 @@
+.wrapper {
+    background-image: url("../../../assets/backgrounds/main-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 495px;
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1 {
+    font-family: "Baskerville Old Face", sans-serif;
+    font-size: 86px;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 10px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 212px;
+    height: 44px;
+    border: none;
+    background-color: rgba(46, 46, 46, 1);
+    font-family: "Baskerville Old Face", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+}

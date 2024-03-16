@@ -1,0 +1,112 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+
+    .verticalBlock {
+        width: 393px;
+        height: 603px;
+        background-color: rgba(46, 46, 46, 0.3);
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .h3 {
+            font-family: "Baskerville Old Face", sans-serif;
+            font-weight: 300;
+            font-size: 36px;
+            text-align: center;
+            padding-top: 70px;
+            color: rgba(46, 46, 46, 1);
+        }
+
+        .p {
+            font-family: "Baskerville Old Face", sans-serif;
+            font-size: 18px;
+            text-align: center;
+            color: rgba(46, 46, 46, 1);
+            line-height: 18px;
+            padding-top: 30px;
+        }
+
+
+        .bottomBlock {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+
+            .percent {
+                width: 90px;
+                height: 90px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: rgba(255, 255, 255, 0.8);
+                border-radius: 50%;
+                font-family: "Baskerville Old Face", sans-serif;
+                font-size: 32px;
+            }
+
+            .button {
+                width: 212px;
+                height: 44px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: none;
+                background-color: rgba(210, 181, 116, 1);
+                color: rgba(255, 255, 255, 1);
+                font-family: "Baskerville Old Face", sans-serif;
+                font-weight: 300;
+                font-size: 24px;
+            }
+        }
+    }
+
+    .otherBlock {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-left: 100px;
+
+        .img {
+            width: 393px;
+            height: 292px;
+            position: relative;
+
+            .texts {
+                position: absolute;
+                top: 90px;
+                left: 30px;
+
+                .h4 {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    font-family: "Baskerville Old Face", sans-serif;
+                    font-weight: 300;
+                    font-size: 32px;
+                    text-align: center;
+                }
+
+                .p {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    font-family: "Baskerville Old Face", sans-serif;
+                    font-weight: 300;
+                    font-size: 18px;
+                    width: 320px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
