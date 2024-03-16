@@ -1,0 +1,50 @@
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    .topBlock {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .itemsBlock {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .itemsBlock img {
+            cursor: pointer;
+        }
+    }
+
+    .topBlock img {
+        cursor: pointer;
+    }
+
+}
+
+.listBlock {
+    .ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 90px;
+
+        .link {
+            list-style: none;
+            font-family: "Baskerville Old Face", sans-serif;
+            font-weight: 300;
+            font-size: 20px;
+            color: rgba(46, 46, 46, 1);
+            cursor: pointer;
+        }
+    }
+}

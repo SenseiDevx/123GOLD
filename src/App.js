@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import {Route, Routes} from "react-router-dom";
+import MainPage from "./pages/MainPage/MainPage";
+import EngagementRings from "./pages/EngagementRings/EngagementRings";
+import WeedingRings from "./pages/WeedingRings/WeedingRings";
+import Layout from "./Layout/Layout";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Routes>
+                <Route path="/" element={<Layout/>}>
+                    <Route index element={<MainPage/>}/>
+                    <Route path="engagements-rings" element={<EngagementRings/>}/>
+                    <Route path="weeding-rings" element={<WeedingRings/>}/>
+                </Route>
+            </Routes>
+        </div>
+    );
 }
 
 export default App;
