@@ -1,0 +1,202 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .customizeBlock {
+        .topBlock {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+
+            .h4 {
+                font-family: "Baskerville Old Face", sans-serif;
+                font-weight: 400;
+                font-size: 25px;
+            }
+
+            .color {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 590px;
+                background-color: rgba(210, 181, 116, 1);
+                padding-left: 25px;
+                padding-right: 25px;
+                height: 32px;
+
+                .h3 {
+                    font-family: "Baskerville Old Face", sans-serif;
+                    font-weight: 400;
+                    font-size: 20px;
+                    color: rgba(255, 255, 255, 1);
+                }
+            }
+        }
+
+        .ringBlock {
+            display: flex;
+            align-items: center;
+            gap: 35px;
+
+            .img {
+                width: 121px;
+                height: 121px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .alloyBlock {
+        margin-top: 60px;
+
+        .itemBlock {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+
+            .color {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 590px;
+                background-color: rgba(210, 181, 116, 1);
+                padding-left: 25px;
+                padding-right: 25px;
+                height: 32px;
+
+                .h3 {
+                    font-family: "Baskerville Old Face", sans-serif;
+                    font-weight: 400;
+                    font-size: 20px;
+                    color: rgba(255, 255, 255, 1);
+                }
+            }
+        }
+
+        .radioBlock {
+            margin-top: 25px;
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            gap: 10px;
+            border-bottom: 1px solid rgba(196, 196, 196, 1);
+            padding-bottom: 35px;
+
+            .radio {
+                display: flex;
+                align-items: center;
+                gap: 120px;
+
+                .inputRadio {
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+
+                    .input {
+                        background-color: rgba(46, 46, 46, 1);
+                        border-color: rgba(46, 46, 46, 1);
+                    }
+
+                    .label {
+                        font-family: "Cera Pro", sans-serif;
+                        font-weight: 300;
+                        font-size: 18px;
+                        color: rgba(46, 46, 46, 1);
+                    }
+                }
+
+                .p {
+                    font-family: "Cera Pro", sans-serif;
+                    font-weight: 300;
+                    font-size: 18px;
+                    color: rgba(46, 46, 46, 1);
+                }
+            }
+        }
+
+        .radioBlock2 {
+            margin-top: 25px;
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            gap: 10px;
+            padding-top: 15px;
+
+            .radio {
+                display: flex;
+                align-items: center;
+                gap: 120px;
+
+                .inputRadio {
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+
+                    .input {
+                        background-color: rgba(46, 46, 46, 1);
+                        border-color: rgba(46, 46, 46, 1);
+                    }
+
+                    .label {
+                        font-family: "Cera Pro", sans-serif;
+                        font-weight: 300;
+                        font-size: 18px;
+                        color: rgba(46, 46, 46, 1);
+                    }
+                }
+
+                .p {
+                    font-family: "Cera Pro", sans-serif;
+                    font-weight: 300;
+                    font-size: 18px;
+                    color: rgba(46, 46, 46, 1);
+                }
+            }
+        }
+
+        .buttons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+            gap: 20px;
+
+            .button1 {
+                width: 286px;
+                padding: 10px;
+                background-color: rgba(210, 181, 116, 1);
+                border: none;
+                font-family: "Cera Pro", sans-serif;
+                font-weight: 500;
+                color: white;
+                font-size: 20px;
+                transition: 0.3s;
+            }
+
+            .button1:hover {
+                background-color: rgba(210, 181, 116, 0.5);
+                color: black;
+            }
+
+            .button2 {
+                width: 286px;
+                padding: 10px;
+                background-color: rgba(46, 46, 46, 1);
+                border: none;
+                font-family: "Cera Pro", sans-serif;
+                font-weight: 500;
+                color: white;
+                font-size: 20px;
+                transition: 0.3s;
+            }
+
+            .button2:hover {
+                background-color: rgba(46, 46, 46, 0.5);
+                color: black;
+            }
+        }
+    }
+}

@@ -1,0 +1,74 @@
+.wrapper {
+    margin-top: 50px;
+    margin-bottom: 150px;
+
+    .titles {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .h5 {
+            font-family: "Baskerville Old Face", sans-serif;
+            font-weight: 400;
+            font-size: 24px;
+            border-bottom: 1px solid rgba(196, 196, 196, 1);
+            margin-bottom: 25px;
+            width: 580px;
+            text-align: center;
+        }
+    }
+
+    .childBlock {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 50px;
+        .leftBlock {
+            display: flex;
+            width: 580px;
+            gap: 30px;
+            padding-left: 10px;
+
+            .firstBlock {
+                display: flex;
+                align-items: start;
+                gap: 15px;
+                flex-direction: column;
+
+                .h4 {
+                    font-family: "Baskerville Old Face", sans-serif;
+                    color: rgba(210, 181, 116, 1);
+                    font-weight: 400;
+                    font-size: 24px;
+                }
+
+                .h4L {
+                    font-family: "Baskerville Old Face", sans-serif;
+                    color: rgba(210, 181, 116, 1);
+                    font-weight: 400;
+                    font-size: 24px;
+                    padding-top: 25px;
+                }
+            }
+
+            .description {
+                display: flex;
+                align-items: start;
+                gap: 15px;
+                flex-direction: column;
+
+                .h4 {
+                    font-family: "Baskerville Old Face", sans-serif;
+                    color: rgba(46, 46, 46, 1);
+                    font-weight: 400;
+                    font-size: 24px;
+                }
+            }
+        }
+        .rightBlock {
+            width: 423px;
+            height: 376px;
+        }
+    }
+}
