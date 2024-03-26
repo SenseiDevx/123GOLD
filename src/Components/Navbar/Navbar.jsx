@@ -14,7 +14,9 @@ const Navbar = () => {
                     <img src={Gold} alt="gold"/>
                 </NavLink>
                 <div className={cls.itemsBlock}>
-                    <img src={WishList} alt="wishlist"/>
+                    <NavLink to="/wish-list/">
+                        <img src={WishList} alt="wishlist"/>
+                    </NavLink>
                     <img src={Card} alt="card"/>
                     <img src={Search} alt="search"/>
                 </div>

@@ -4,6 +4,7 @@ import EngagementRings from "./pages/EngagementRings/EngagementRings";
 import WeedingRings from "./pages/WeedingRings/WeedingRings";
 import Layout from "./Layout/Layout";
 import AboutRing from "./pages/AboutRing/AboutRing";
+import WishList from "./pages/WishList/WishList";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                     <Route path="/engagements-rings/" element={<EngagementRings/>}/>
                     <Route path="/weeding-rings/" element={<WeedingRings/>}/>
                     <Route path="/ring-page/" element={<AboutRing/>}/>
+                    <Route path="/wish-list/" element={<WishList/>}/>
                 </Route>
             </Routes>
         </div>

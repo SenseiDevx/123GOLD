@@ -1,5 +1,5 @@
 .wrapper {
-    background-image: url("../../../assets/backgrounds/main-bg.png");
+    background-image: url("../../../assets/engagement/bg-engagement.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 495px;
@@ -17,12 +17,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 50;
-    color: white;
 }
 
 .h1 {
@@ -32,23 +26,26 @@
     letter-spacing: 10px;
     font-weight: 300;
     text-align: center;
-    margin-bottom: 150px;
 }
 
-.button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 212px;
-    height: 44px;
-    border: none;
-    background-color: rgba(46, 46, 46, 1);
+.p {
     font-family: "Baskerville Old Face", sans-serif;
-    font-weight: 300;
-    font-size: 24px;
+    font-weight: 400;
+    font-size: 18px;
     color: rgba(255, 255, 255, 1);
+    text-align: left;
+    width: 810px;
+    margin-top: 20px;
 }
 
+.content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 50;
+    color: white;
+}
 
 .wrapper::before {
     content: "";

@@ -1,0 +1,41 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .h3 {
+        font-family: "Baskerville Old Face", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        color: rgba(210, 181, 116, 1);
+    }
+
+    .texts {
+        display: flex;
+        align-items: start;
+        gap: 30px;
+        margin-top: 60px;
+
+        .items {
+            width: 310px;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 20px;
+
+            .h6 {
+                font-family: "Baskerville Old Face", sans-serif;
+                font-size: 24px;
+                font-weight: 400;
+            }
+
+            .p {
+                font-family: "Baskerville Old Face", sans-serif;
+                font-size: 21px;
+                font-weight: 300;
+            }
+        }
+    }
+}
