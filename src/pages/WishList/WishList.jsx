@@ -6,7 +6,14 @@ const WishList = () => {
     return (
         <div className="container">
             <WishListTitle/>
-            <WishListCard/>
+            <div className={cls.card}>
+                <WishListCard/>
+                <WishListCard/>
+                <WishListCard/>
+                <WishListCard/>
+                <WishListCard/>
+                <WishListCard/>
+            </div>
         </div>
     );
 };
