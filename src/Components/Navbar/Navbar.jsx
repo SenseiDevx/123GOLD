@@ -17,7 +17,9 @@ const Navbar = () => {
                     <NavLink to="/wish-list/">
                         <img src={WishList} alt="wishlist"/>
                     </NavLink>
-                    <img src={Card} alt="card"/>
+                    <NavLink to="/my-cart/">
+                        <img src={Card} alt="card"/>
+                    </NavLink>
                     <img src={Search} alt="search"/>
                 </div>
             </div>
