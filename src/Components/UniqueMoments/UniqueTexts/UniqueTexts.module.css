@@ -1,0 +1,49 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .h2 {
+        font-family: "Baskerville Old Face", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        color: rgba(210, 181, 116, 1);
+        letter-spacing: 3px;
+    }
+
+    .textBlocks {
+        display: flex;
+        margin-top: 70px;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+
+        .textItem {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 15px;
+            box-shadow: rgba(255, 255, 255, 1);
+            width: 315px;
+            height: 238px;
+
+            .h5 {
+                font-family: "Baskerville Old Face", sans-serif;
+                font-weight: 400;
+                font-size: 24px;
+                text-align: center;
+                color: rgba(0, 0, 0, 1);
+            }
+
+            .p {
+                text-align: center;
+                font-family: "Baskerville Old Face", sans-serif;
+                font-size: 24px;
+                color: rgba(0, 0, 0, 1);
+                line-height: 24px;
+            }
+        }
+    }
+}

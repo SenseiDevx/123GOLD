@@ -1,0 +1,52 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+
+    .ringBlock {
+        width: 250px;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        transition: 0.3s;
+
+        .h4 {
+            font-family: "Baskerville Old Face", sans-serif;
+            font-size: 24px;
+            color: rgba(210, 181, 116, 1);
+            font-weight: 300;
+        }
+
+        .p {
+            text-align: center;
+            font-family: "Baskerville Old Face", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: rgba(0, 0, 0, 1);
+        }
+
+        .button {
+            width: 143px;
+            padding: 7px;
+            background-color: rgba(210, 181, 116, 1);
+            border: none;
+            font-family: "Baskerville Old Face", sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+            color: rgba(255, 255, 255, 1);
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background-color: rgba(46, 46, 46, 1);
+        }
+    }
+    .ringBlock:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    }
+}

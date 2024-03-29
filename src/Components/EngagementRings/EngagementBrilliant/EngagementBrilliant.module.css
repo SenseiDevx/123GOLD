@@ -1,13 +1,7 @@
 .wrapper {
-    background-image: url("../../../assets/backgrounds/bg-brilliant.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 320px;
-    width: 100%;
-    margin-top: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    margin-top: 150px;
     margin-bottom: 150px;
+   .img {
+       width: 100%;
+   }
 }

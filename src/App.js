@@ -7,6 +7,7 @@ import AboutRing from "./pages/AboutRing/AboutRing";
 import WishList from "./pages/WishList/WishList";
 import MyCart from "./pages/MyCart/MyCart";
 import Diamonds from "./pages/Diamonds/Diamonds";
+import UniqueMoments from "./pages/UniqueMoments/UniqueMoments";
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                     <Route path="/wish-list/" element={<WishList/>}/>
                     <Route path="/my-cart/" element={<MyCart/>}/>
                     <Route path="/diamonds/" element={<Diamonds/>}/>
+                    <Route path="/memoire-rings" element={<UniqueMoments/>}/>
                 </Route>
             </Routes>
         </div>
