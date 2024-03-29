@@ -1,2 +1,2 @@
-# 123GOLD layout
+# 123GOLD project
 

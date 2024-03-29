@@ -6,6 +6,7 @@ import Layout from "./Layout/Layout";
 import AboutRing from "./pages/AboutRing/AboutRing";
 import WishList from "./pages/WishList/WishList";
 import MyCart from "./pages/MyCart/MyCart";
+import Diamonds from "./pages/Diamonds/Diamonds";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                     <Route path="/ring-page/" element={<AboutRing/>}/>
                     <Route path="/wish-list/" element={<WishList/>}/>
                     <Route path="/my-cart/" element={<MyCart/>}/>
+                    <Route path="/diamonds/" element={<Diamonds/>}/>
                 </Route>
             </Routes>
         </div>

@@ -35,7 +35,7 @@ const Navbar = () => {
                             Engagement rings
                         </li>
                     </NavLink>
-                    <NavLink to="/engagements-rings" style={{textDecoration: "none"}}>
+                    <NavLink to="/diamonds" style={{textDecoration: "none"}}>
                         <li className={cls.link}>
                             Diamonds
                         </li>
