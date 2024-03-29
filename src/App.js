@@ -8,6 +8,7 @@ import WishList from "./pages/WishList/WishList";
 import MyCart from "./pages/MyCart/MyCart";
 import Diamonds from "./pages/Diamonds/Diamonds";
 import UniqueMoments from "./pages/UniqueMoments/UniqueMoments";
+import Contacts from "./pages/Contacts/Contacts";
 
 function App() {
     return (
@@ -21,7 +22,8 @@ function App() {
                     <Route path="/wish-list/" element={<WishList/>}/>
                     <Route path="/my-cart/" element={<MyCart/>}/>
                     <Route path="/diamonds/" element={<Diamonds/>}/>
-                    <Route path="/memoire-rings" element={<UniqueMoments/>}/>
+                    <Route path="/memoire-rings/" element={<UniqueMoments/>}/>
+                    <Route path="/contacts/" element={<Contacts/>}/>
                 </Route>
             </Routes>
         </div>

@@ -50,7 +50,7 @@ const Navbar = () => {
                             Jewelery
                         </li>
                     </NavLink>
-                    <NavLink to="/weeding-rings" style={{textDecoration: "none"}}>
+                    <NavLink to="/contacts/" style={{textDecoration: "none"}}>
                         <li className={cls.link}>
                             Contacts
                         </li>
