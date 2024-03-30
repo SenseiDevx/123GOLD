@@ -9,6 +9,7 @@ import MyCart from "./pages/MyCart/MyCart";
 import Diamonds from "./pages/Diamonds/Diamonds";
 import UniqueMoments from "./pages/UniqueMoments/UniqueMoments";
 import Contacts from "./pages/Contacts/Contacts";
+import Jewelery from "./pages/Jewelery/Jewelery";
 
 function App() {
     return (
@@ -24,6 +25,7 @@ function App() {
                     <Route path="/diamonds/" element={<Diamonds/>}/>
                     <Route path="/memoire-rings/" element={<UniqueMoments/>}/>
                     <Route path="/contacts/" element={<Contacts/>}/>
+                    <Route path="/jewelery/" element={<Jewelery/>}/>
                 </Route>
             </Routes>
         </div>

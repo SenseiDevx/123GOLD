@@ -25,27 +25,27 @@ const Navbar = () => {
             </div>
             <div className={cls.listBlock}>
                 <ul className={cls.ul}>
-                    <NavLink to="/weeding-rings" style={{textDecoration: "none"}}>
+                    <NavLink to="/weeding-rings/" style={{textDecoration: "none"}}>
                         <li className={cls.link}>
                             Wedding rings
                         </li>
                     </NavLink>
-                    <NavLink to="/engagements-rings" style={{textDecoration: "none"}}>
+                    <NavLink to="/engagements-rings/" style={{textDecoration: "none"}}>
                         <li className={cls.link}>
                             Engagement rings
                         </li>
                     </NavLink>
-                    <NavLink to="/diamonds" style={{textDecoration: "none"}}>
+                    <NavLink to="/diamonds/" style={{textDecoration: "none"}}>
                         <li className={cls.link}>
                             Diamonds
                         </li>
                     </NavLink>
-                    <NavLink to="/memoire-rings" style={{textDecoration: "none"}}>
+                    <NavLink to="/memoire-rings/" style={{textDecoration: "none"}}>
                         <li className={cls.link}>
                             Memoire
                         </li>
                     </NavLink>
-                    <NavLink to="/weeding-rings" style={{textDecoration: "none"}}>
+                    <NavLink to="/jewelery/" style={{textDecoration: "none"}}>
                         <li className={cls.link}>
                             Jewelery
                         </li>
