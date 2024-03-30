@@ -1,0 +1,101 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 150px;
+
+    .h4 {
+        font-family: "Baskerville Old Face", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        color: rgba(210, 181, 116, 1);
+        text-align: center;
+        width: 911px;
+    }
+
+    .discoverItems {
+        display: flex;
+        align-items: start;
+        gap: 80px;
+
+        .countyList {
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+
+            .listCountries {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                .lists {
+                    display: flex;
+                    gap: 50px;
+
+                    .list {
+                        width: 140px;
+
+                        .p {
+                            font-family: "Baskerville Old Face", sans-serif;
+                            font-weight: 400;
+                            color: rgba(46, 46, 46, 1);
+                            font-size: 18px;
+                        }
+                    }
+                }
+
+                .h5 {
+                    font-family: "Baskerville Old Face", sans-serif;
+                    font-weight: 700;
+                    font-size: 20px;
+                    color: rgba(46, 46, 46, 1);
+                }
+            }
+
+            .secondList {
+                display: flex;
+                gap: 50px;
+
+                .list {
+                    width: 140px;
+                    display: flex;
+                    flex-direction: column;
+
+                    .h5 {
+                        font-family: "Baskerville Old Face", sans-serif;
+                        font-weight: 700;
+                        font-size: 16px;
+                        color: rgba(46, 46, 46, 1);
+                        padding-bottom: 10px;
+                    }
+
+                    .p {
+                        font-family: "Baskerville Old Face", sans-serif;
+                        font-weight: 400;
+                        color: rgba(46, 46, 46, 1);
+                        font-size: 18px;
+                    }
+                }
+            }
+
+            .contact {
+                border: 2px solid rgba(180, 140, 80, 1);
+                width: 428px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 7px;
+                gap: 10px;
+                cursor: pointer;
+
+                .p {
+                    font-family: "Baskerville Old Face", sans-serif;
+                    color: rgba(46, 46, 46, 1);
+                    font-weight: 300;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
