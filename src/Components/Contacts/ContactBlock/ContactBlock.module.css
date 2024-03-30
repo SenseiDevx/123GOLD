@@ -1,0 +1,124 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    height: 302px;
+    background-color: rgba(210, 181, 116, 1);
+    margin-bottom: 150px;
+
+    .firstBlock {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        .h6 {
+            font-family: "Baskerville Old Face", sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            color: rgba(46, 46, 46, 1);
+            width: 290px;
+            text-align: center;
+            padding-bottom: 50px;
+        }
+
+        .p {
+            color: rgba(46, 46, 46, 1);
+            font-family: "Cera Pro", sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            padding-bottom: 20px;
+        }
+    }
+
+    .secondBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+
+        .h3 {
+            font-family: "Baskerville Old Face", sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            color: rgba(46, 46, 46, 1);
+        }
+
+        .inputs {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            .input {
+                background-color: transparent;
+                width: 185px;
+                height: 30px;
+                border: 1px solid rgba(125, 125, 125, 1);
+                padding: 15px;
+                outline: none;
+                color: white;
+            }
+        }
+
+        .button {
+            width: 185px;
+            background-color: rgba(46, 46, 46, 1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            font-family: "Baskerville Old Face", sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            color: white;
+            border: none;
+            letter-spacing: 2px;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background-color:  white;
+            color: black;
+        }
+    }
+
+    .thirdBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        .h3 {
+            font-family: "Baskerville Old Face", sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            color: rgba(46, 46, 46, 1);
+            padding-bottom: 50px;
+        }
+
+        .data {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            .h5 {
+                font-family: "Baskerville Old Face", sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+                color: rgba(46, 46, 46, 1);
+            }
+
+            .p {
+                font-family: "Baskerville Old Face", sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+                color: rgba(46, 46, 46, 1);
+            }
+        }
+    }
+}
